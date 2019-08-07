@@ -1,10 +1,24 @@
 {
-  "name": "src",
-  "version": "1.0.0",
-  "description": "",
+  "name": "ispause",
+  "version": "0.0.1",
+  "description": "Sjekk om det blir is",
   "scripts": {
     "test": "echo \"No tests yet...\""
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request-promise-native": "^1.0.7"
+  },
+  "devDependencies": {},
+  "main": "src/sjekkOmDetBlirIs/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stianthaulow/ispause.git"
+  },
+  "author": "Stian Thaulow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stianthaulow/ispause/issues"
+  },
+  "homepage": "https://github.com/stianthaulow/ispause#readme"
 }
